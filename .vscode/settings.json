@@ -93,5 +93,6 @@
 	"typescript.preferences.quoteStyle": "single",
 	"typescript.tsdk": "node_modules/typescript/lib",
 	"workbench.editor.empty.hint": "hidden",
-	"workbench.editor.wrapTabs": true
+	"workbench.editor.wrapTabs": true,
+	"cSpell.words": ["chakra", "iktex", "unrs", "wdth"]
 }
