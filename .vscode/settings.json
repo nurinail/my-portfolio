@@ -35,7 +35,6 @@
 		"certs": true,
 		"commitlint.config.js": true,
 		"cspell.config.yml": true,
-		"Dockerfile": true,
 		"dict.proj.txt": true,
 		"dict.tech.txt": true,
 		"index.html": true,
@@ -60,7 +59,7 @@
 		"version.ts": true,
 		"setup-test.ts": true,
 		"vitest.config.ts": true,
-		"vite.config.ts": true
+		"next.config.ts": true
 	},
 	"files.watcherExclude": {
 		"src/routeTree.gen.ts": true

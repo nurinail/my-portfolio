@@ -72,6 +72,7 @@ export const sizes = {
 	xl: { description: "768px width", value: "48rem" },
 	xs: { description: "384px width", value: "24rem" },
 	xxs: { description: "320px width", value: "20rem" },
+	full: { description: "100% width", value: "100%" },
 };
 
 /**
