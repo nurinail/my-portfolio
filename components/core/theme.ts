@@ -1,7 +1,7 @@
 import { defineConfig } from "@chakra-ui/react";
 import { colors } from "./colors";
 import { globalCss } from "./global";
-import { buttonRecipe, headingRecipe } from "./recipes";
+// import { buttonRecipe, headingRecipe } from "./recipes";
 import { breakpoints, radii, sizes, spacing } from "./sizes";
 import {
 	fontFamily,
@@ -16,7 +16,7 @@ export const themeConfig = defineConfig({
 	cssVarsPrefix: "iktex",
 	globalCss,
 	theme: {
-		recipes: { button: buttonRecipe, heading: headingRecipe },
+		// recipes: { button: buttonRecipe, heading: headingRecipe },
 		semanticTokens: {
 			colors: {
 				...virtualColors,
