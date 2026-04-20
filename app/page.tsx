@@ -4,7 +4,7 @@ import { Main } from "./Layout/Main";
 
 export default function Home() {
 	return (
-		<Box h="100dvh" bg="brandPurple.700">
+		<Box bg="brandPurple.700">
 			<Header />
 			<Main />
 		</Box>

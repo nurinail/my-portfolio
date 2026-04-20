@@ -6,7 +6,7 @@ export function Banner() {
 		<VStack w="full">
 			<HStack w="full" h="380px" justifyContent="flex-start">
 				<Box position="relative">
-					<Image h="380px" src="/RadialEllipse.png" alt="Radial Ellipse" />
+					<Image src="/RadialEllipse.png" alt="Radial Ellipse" />
 					<Image
 						src="/image.png"
 						w="165px"
@@ -19,10 +19,10 @@ export function Banner() {
 					/>
 				</Box>
 				<VStack
-					justifyContent="space-between"
+					justifyContent="flex-start"
 					h="full"
 					maxW="480px"
-					gap="85px"
+					gap="92px"
 					alignItems="flex-start"
 					position="relative"
 				>
@@ -79,6 +79,33 @@ export function Banner() {
 					</VStack>
 				</VStack>
 			</HStack>
+			<VStack alignItems="flex-start" w="full">
+				<Text fontSize="display-lg" color="white">
+					I'm a Frontend Developer.|
+				</Text>
+				<HStack mt="10px" alignItems="center">
+					<Text color="white" fontSize="text-xl" fontWeight="300">
+						Currently, I'm a Frontend Developer at{" "}
+					</Text>
+					<HStack>
+						<Image
+							src="/iktexLogo.png"
+							fontSize="text-xl"
+							alt="IKTEX"
+							w="20px"
+							h="20px"
+						/>
+						<Text color="white" fontWeight="bold">
+							IKTEX
+						</Text>
+					</HStack>
+				</HStack>
+				<Text fontSize="22px" mt="69px" fontWeight="300" color="white">
+					A self-taught UI/UX designer, functioning in the industry for 3+ years
+					now. I make meaningful and delightful digital products that create an
+					equilibrium between user needs and business goals.
+				</Text>
+			</VStack>
 		</VStack>
 	);
 }
