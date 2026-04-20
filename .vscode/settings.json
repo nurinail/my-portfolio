@@ -93,5 +93,5 @@
 	"typescript.tsdk": "node_modules/typescript/lib",
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.wrapTabs": true,
-	"cSpell.words": ["chakra", "iktex", "unrs", "wdth"]
+	"cSpell.words": ["chakra", "iktex", "Nuri", "unrs", "wdth"]
 }

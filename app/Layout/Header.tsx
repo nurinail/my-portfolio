@@ -1,5 +1,5 @@
 import { Button, HStack, Link } from "@chakra-ui/react";
-import { LogoIcon } from "../assets/icons";
+import { LogoIcon } from "../../public/icons";
 
 export const routerLink = [
 	{ label: "Home", href: "/" },
