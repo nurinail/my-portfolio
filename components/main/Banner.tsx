@@ -6,9 +6,9 @@ export function Banner() {
 		<VStack w="full">
 			<HStack w="full" h="380px" justifyContent="flex-start">
 				<Box position="relative">
-					<Image src="/RadialEllipse.png" alt="Radial Ellipse" />
+					<Image src="/images/RadialEllipse.png" alt="Radial Ellipse" />
 					<Image
-						src="/image.png"
+						src="/images/faceImg.png"
 						w="165px"
 						h="223px"
 						alt="Profile Image"
@@ -89,7 +89,7 @@ export function Banner() {
 					</Text>
 					<HStack>
 						<Image
-							src="/iktexLogo.png"
+							src="/images/iktexLogo.png"
 							fontSize="text-xl"
 							alt="IKTEX"
 							w="20px"
