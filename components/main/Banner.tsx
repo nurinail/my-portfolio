@@ -32,7 +32,7 @@ export function Banner() {
 					<Text color="white" fontSize="text-lg" fontStyle="italic">
 						Hello! I Am <span style={{ color: "#7127BA" }}>Nail Nuri</span>
 					</Text>
-					<VStack alignItems="flex-start">
+					<VStack gap="0" alignItems="flex-start">
 						<Text fontStyle="italic" fontSize="text-md" color="white">
 							A Frontend Developer who
 						</Text>
