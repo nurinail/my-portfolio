@@ -3,7 +3,7 @@ export const workItemUtil = [
 		workName: "Republic of Azerbaijan Chamber of Accounts",
 		description:
 			"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
-		image: "./images/work1Img.png",
+		image: "./images/hesablamaPalatasıLogo.png",
 	},
 	{
 		workName: "Yapı Kredi Bank",
