@@ -4,14 +4,14 @@ import { ArrowDownIcon } from "../../public/icons";
 export function Banner() {
 	return (
 		<VStack w="full">
-			<HStack w="full" h="431px" justifyContent="flex-start">
+			<HStack w="full" h="380px" justifyContent="flex-start">
 				<Box position="relative">
-					<Image src="/RadialEllipse.png" />
+					<Image h="380px" src="/RadialEllipse.png" alt="Radial Ellipse" />
 					<Image
 						src="/image.png"
 						w="165px"
 						h="223px"
-						// border={"1px solid green"}
+						alt="Profile Image"
 						position="absolute"
 						top="50%"
 						left="50%"
