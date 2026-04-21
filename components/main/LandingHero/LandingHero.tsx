@@ -1,4 +1,4 @@
-import { Image, Text, VStack } from "@chakra-ui/react";
+import { HStack, Image, Text, VStack } from "@chakra-ui/react";
 
 export function LandingHero() {
 	return (
@@ -12,6 +12,7 @@ export function LandingHero() {
 				</Text>
 			</VStack>
 			<VStack>
+				<HStack></HStack>
 				<Image src="/images/landingHero.png" alt="Landing Hero Image" />
 			</VStack>
 		</VStack>
