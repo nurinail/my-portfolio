@@ -6,7 +6,7 @@ export function Footer() {
 			// py="10xl"
 			maxW="3xl"
 			marginInline="auto"
-			border="1px solid red"
+			border="1px solid white"
 			as="footer"
 			alignItems="flex-start"
 		>
