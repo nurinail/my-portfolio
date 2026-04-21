@@ -20,6 +20,7 @@ export function Header() {
 						w="70px"
 						objectFit="contain"
 						h="70px"
+						alt="Logo"
 						src="./images/logoNN.png"
 					/>
 				</Button>
