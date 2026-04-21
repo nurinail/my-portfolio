@@ -51,6 +51,10 @@ export const landingHeroLogoUtil = [
 		image: "/images/nextjsImg.png",
 	},
 	{
+		id: 5,
+		image: "/images/nodeJsImg.png",
+	},
+	{
 		id: 9,
 		image: "/images/gitlabImg.png",
 	},

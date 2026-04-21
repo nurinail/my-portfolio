@@ -15,7 +15,7 @@ export function LandingHero() {
 			</VStack>
 			<VStack gap="0" position="relative">
 				<HStack
-					top="-15%"
+					top="-12%"
 					position="absolute"
 					maxW="380px"
 					flexWrap="wrap"
