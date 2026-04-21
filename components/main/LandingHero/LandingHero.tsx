@@ -1,4 +1,6 @@
 import { HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { landingHeroLogoUtil } from "../utils";
+import { StackItem } from "./StackItem";
 
 export function LandingHero() {
 	return (
@@ -11,9 +13,26 @@ export function LandingHero() {
 					that values improving people's lives through accessible design{" "}
 				</Text>
 			</VStack>
-			<VStack>
-				<HStack></HStack>
-				<Image src="/images/landingHero.png" alt="Landing Hero Image" />
+			<VStack gap="0" position="relative">
+				<HStack
+					top="-15%"
+					position="absolute"
+					maxW="380px"
+					flexWrap="wrap"
+					gap="11px"
+					justifyContent="center"
+				>
+					{landingHeroLogoUtil.map((item) => (
+						<StackItem key={item.id} image={item.image} />
+					))}
+				</HStack>
+				<Image
+					w="895px"
+					h="571px"
+					objectFit="contain"
+					src="/images/landingHero.png"
+					alt="Landing Hero Image"
+				/>
 			</VStack>
 		</VStack>
 	);

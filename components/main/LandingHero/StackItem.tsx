@@ -1,29 +1,19 @@
-import { Box, type BoxProps } from "@chakra-ui/react";
-import type { ReactNode } from "react";
+import { Box, Image } from "@chakra-ui/react";
 
-interface StackItemProps extends BoxProps {
-	children: ReactNode;
-	wrapperProps?: BoxProps;
-}
-
-export function StackItem({ children, wrapperProps, ...rest }: StackItemProps) {
+export function StackItem({ image }: { image: string }) {
 	return (
 		<Box
-			position="absolute"
-			{...rest} // top, left və s burdan gəlir
+			w="44px"
+			h="44px"
+			borderRadius="full"
+			transition=".4s ease-in"
+			_hover={{ transform: "scale(1.2)" }}
+			bg="#251C31"
+			display="flex"
+			alignItems="center"
+			justifyContent="center"
 		>
-			<Box
-				w="60px"
-				h="60px"
-				borderRadius="full"
-				bg="rgba(255,255,255,0.05)"
-				display="flex"
-				alignItems="center"
-				justifyContent="center"
-				{...wrapperProps}
-			>
-				{children}
-			</Box>
+			<Image objectFit="contain" src={image} alt="Stack Icon" boxSize="20px" />
 		</Box>
 	);
 }
