@@ -1,6 +1,6 @@
 import { Box, Grid, HStack, Image, Text, VStack } from "@chakra-ui/react";
-import { WorkItem } from "../common/WorkItem";
-import { workItemUtil } from "./utils";
+import { WorkItem } from "../../common/WorkItem";
+import { workItemUtil } from "../utils";
 
 export function WorkExperience() {
 	return (
@@ -20,9 +20,9 @@ export function WorkExperience() {
 					Work Experience
 				</Text>
 				<Grid templateColumns="repeat(2, 1fr)" w="full" gap="20px">
-					{workItemUtil.map((item) => (
+					{workItemUtil.map((item, index) => (
 						<WorkItem
-							key={item.workName}
+							key={index as number}
 							title={item.workName}
 							description={item.description}
 							imageSrc={item.image}

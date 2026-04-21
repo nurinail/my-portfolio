@@ -1,5 +1,8 @@
+chakra
 hesablama
+iktex
 Kredi
+Nuri
 Palatası
 yapi
 Yapı

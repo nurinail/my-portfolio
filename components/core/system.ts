@@ -15,7 +15,7 @@ const cleanConfig = omit(defaultConfig, [
 	"theme.tokens.lineHeights",
 	"theme.tokens.radii",
 	"theme.tokens.sizes",
-	"theme.tokens.spacing",
+	// "theme.tokens.spacing",
 ]);
 
 // // biome-ignore lint/suspicious/noConsole: log

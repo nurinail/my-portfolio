@@ -1,5 +1,5 @@
 import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
-import { ArrowDownIcon } from "../../public/icons";
+import { ArrowDownIcon } from "../../../public/icons";
 
 export function Banner() {
 	return (
