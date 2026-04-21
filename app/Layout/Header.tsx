@@ -1,5 +1,4 @@
-import { Button, HStack, Link } from "@chakra-ui/react";
-import { LogoIcon } from "../../public/icons";
+import { Button, HStack, Image, Link } from "@chakra-ui/react";
 
 export const routerLink = [
 	{ label: "Home", href: "/" },
@@ -9,7 +8,7 @@ export const routerLink = [
 
 export function Header() {
 	return (
-		<HStack as="header" py="4xl" bg="brandPurple.500">
+		<HStack as="header" bg="brandPurple.500">
 			<HStack
 				w="full"
 				justifyContent="space-between"
@@ -17,7 +16,12 @@ export function Header() {
 				maxW="3xl"
 			>
 				<Button cursor="pointer" variant="ghost">
-					<LogoIcon color="white" />
+					<Image
+						w="70px"
+						objectFit="contain"
+						h="70px"
+						src="./images/logoNN.png"
+					/>
 				</Button>
 				<HStack gap="11xl">
 					{routerLink.map((link) => (
