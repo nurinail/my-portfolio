@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 		"web development",
 		"portfolio",
 		"nail nuri",
+		"nailnuriqaqa",
 	],
 };
 
