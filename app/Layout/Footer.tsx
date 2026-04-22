@@ -14,10 +14,9 @@ export function Footer() {
 			<Text color="white" fontSize="display-xs">
 				Contact
 			</Text>
-			<Text maxW="700px" mt="73px" mb="2xl" color="white" fontSize="text-md">
-				I'm currently looking to join a cross-functional team that values
-				improving people's lives through accessible design. or have a project in
-				mind? Let's connect.
+			<Text maxW="700px" mt="10" mb="2xl" color="white" fontSize="text-md">
+				Always open to interesting ideas and collaborations. Feel free to reach
+				out if you'd like to build something together.
 			</Text>
 			<HStack gap="30px">
 				{contactMeUtil.map((item, index) => (

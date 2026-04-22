@@ -5,7 +5,13 @@ export function Banner() {
 	return (
 		<VStack w="full">
 			<HStack w="full" h="380px" justifyContent="flex-start">
-				<Box position="relative">
+				<Box
+					transition="0.4s ease-in-out"
+					_hover={{
+						transform: "scale(1.2)",
+					}}
+					position="relative"
+				>
 					<Image src="/images/RadialEllipse.png" alt="Radial Ellipse" />
 					<Image
 						src="/images/faceImg.png"
@@ -29,14 +35,38 @@ export function Banner() {
 					<Box position="absolute" top="-8%" translate="-4% 0" left="-27%">
 						<ArrowDownIcon boxSize="150px" color="white" />
 					</Box>
-					<Text color="white" fontSize="text-lg" fontStyle="italic">
+					<Text
+						transition="0.4s ease-in-out"
+						_hover={{
+							transform: "scale(1.1)",
+						}}
+						color="white"
+						fontSize="text-lg"
+						fontStyle="italic"
+					>
 						Hello! I'm <span style={{ color: "#7127BA" }}>Nail Nuri</span>
 					</Text>
 					<VStack gap="0" alignItems="flex-start">
-						<Text fontStyle="italic" fontSize="text-md" color="white">
+						<Text
+							transition="0.4s ease-in-out"
+							_hover={{
+								transform: "scale(1.1)",
+							}}
+							fontStyle="italic"
+							fontSize="text-md"
+							color="white"
+						>
 							A Frontend Developer who
 						</Text>
-						<Text color="white" fontSize="display-lg" lineHeight="1.4">
+						<Text
+							transition="0.4s ease-in-out"
+							_hover={{
+								transform: "scale(1.1)",
+							}}
+							color="white"
+							fontSize="display-lg"
+							lineHeight="1.4"
+						>
 							Builds scalable, high-performance{" "}
 							<Box
 								ml="10px"
@@ -73,7 +103,15 @@ export function Banner() {
 								...
 							</Box>
 						</Text>
-						<Text color="white" fontSize="text-xs" fontWeight="300">
+						<Text
+							transition="0.4s ease-in-out"
+							_hover={{
+								transform: "scale(1.1)",
+							}}
+							color="white"
+							fontSize="text-xs"
+							fontWeight="300"
+						>
 							I design and develop user-centric digital products with a strong
 							focus on performance and scalability.
 						</Text>
@@ -81,11 +119,26 @@ export function Banner() {
 				</VStack>
 			</HStack>
 			<VStack alignItems="flex-start" w="full">
-				<Text lineHeight="1" fontSize="display-lg" color="white">
+				<Text
+					transition="0.4s ease-in-out"
+					_hover={{
+						transform: "scale(1.01)",
+					}}
+					lineHeight="1"
+					fontSize="display-lg"
+					color="white"
+				>
 					Frontend Developer with a passion for building modern, scalable, and
 					user-focused applications.
 				</Text>
-				<HStack mt="10px" alignItems="center">
+				<HStack
+					transition="0.4s ease-in-out"
+					_hover={{
+						transform: "scale(1.05)",
+					}}
+					mt="10px"
+					alignItems="center"
+				>
 					<Text color="white" fontSize="text-xl" fontWeight="300">
 						Currently working as a Frontend Developer at
 					</Text>
@@ -102,7 +155,16 @@ export function Banner() {
 						</Text>
 					</HStack>
 				</HStack>
-				<Text fontSize="22px" mt="40px" fontWeight="300" color="white">
+				<Text
+					transition="0.4s ease-in-out"
+					_hover={{
+						transform: "scale(1.05)",
+					}}
+					fontSize="22px"
+					mt="40px"
+					fontWeight="300"
+					color="white"
+				>
 					I design and develop user-centric digital products with a strong focus
 					on performance and scalability.
 				</Text>
