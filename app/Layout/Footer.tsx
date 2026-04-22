@@ -1,3 +1,4 @@
+"use client";
 import { HStack, Link, Text, VStack } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { contactMeUtil } from "../../components/main/utils";
@@ -11,7 +12,7 @@ export function Footer() {
 			as="footer"
 			alignItems="flex-start"
 		>
-			<Text color="white" fontSize="display-xs">
+			<Text color="white" fontSize="40px">
 				Contact
 			</Text>
 			<Text maxW="700px" mt="10" mb="2xl" color="white" fontSize="text-md">
@@ -20,19 +21,16 @@ export function Footer() {
 			</Text>
 			<HStack gap="30px">
 				{contactMeUtil.map((item, index) => (
-					<NextLink
-						passHref
+					<Link
+						as={NextLink}
 						key={index as number}
 						href={item.href}
 						target="_blank"
+						_hover={{ transform: "scale(1.2)" }}
+						transition="0.4s ease-in-out"
 					>
-						<Link
-							_hover={{ transform: "scale(1.2)" }}
-							transition="0.4s ease-in-out"
-						>
-							{item.icon({ color: "white", size: "24px" })}
-						</Link>
-					</NextLink>
+						{item.icon({ color: "white", size: "24px" })}
+					</Link>
 				))}
 			</HStack>
 		</VStack>

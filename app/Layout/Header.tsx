@@ -1,4 +1,6 @@
+"use client";
 import { Button, HStack, Image, Link } from "@chakra-ui/react";
+import { useNavigate } from "@tanstack/react-router";
 
 export const routerLink = [
 	{ label: "Home", href: "/" },
@@ -7,6 +9,7 @@ export const routerLink = [
 ];
 
 export function Header() {
+	const navigate = useNavigate();
 	return (
 		<HStack id="header" as="header" bg="brandPurple.500">
 			<HStack
@@ -16,7 +19,11 @@ export function Header() {
 				maxW="3xl"
 				pr="3xl"
 			>
-				<Button cursor="pointer" variant="ghost">
+				<Button
+					onClick={() => navigate({ to: "/" })}
+					cursor="pointer"
+					variant="ghost"
+				>
 					<Image
 						w="70px"
 						objectFit="contain"
