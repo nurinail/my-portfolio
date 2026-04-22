@@ -23,9 +23,10 @@ export function WorkExperience() {
 					{workItemUtil.map((item, index) => (
 						<WorkItem
 							key={index as number}
-							title={item.workName}
-							description={item.description}
+							title={item.title}
+							workName={item.workName}
 							imageSrc={item.image}
+							description={item.description}
 						/>
 					))}
 				</Grid>

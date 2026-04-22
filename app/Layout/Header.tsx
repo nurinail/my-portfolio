@@ -8,12 +8,13 @@ export const routerLink = [
 
 export function Header() {
 	return (
-		<HStack as="header" bg="brandPurple.500">
+		<HStack id="header" as="header" bg="brandPurple.500">
 			<HStack
 				w="full"
 				justifyContent="space-between"
 				marginInline="auto"
 				maxW="3xl"
+				pr="3xl"
 			>
 				<Button cursor="pointer" variant="ghost">
 					<Image
@@ -24,7 +25,7 @@ export function Header() {
 						src="./images/logoNN.png"
 					/>
 				</Button>
-				<HStack gap="11xl">
+				<HStack gap={{ base: "md", md: "11xl" }}>
 					{routerLink.map((link) => (
 						<Link
 							_hover={{ textDecoration: "none" }}

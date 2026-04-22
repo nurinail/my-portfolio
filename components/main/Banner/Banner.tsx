@@ -30,7 +30,7 @@ export function Banner() {
 						<ArrowDownIcon boxSize="150px" color="white" />
 					</Box>
 					<Text color="white" fontSize="text-lg" fontStyle="italic">
-						Hello! I Am <span style={{ color: "#7127BA" }}>Nail Nuri</span>
+						Hello! I'm <span style={{ color: "#7127BA" }}>Nail Nuri</span>
 					</Text>
 					<VStack gap="0" alignItems="flex-start">
 						<Text fontStyle="italic" fontSize="text-md" color="white">
@@ -74,18 +74,20 @@ export function Banner() {
 							</Box>
 						</Text>
 						<Text color="white" fontSize="text-xs" fontWeight="300">
-							Because if the cover does not impress you what else can?
+							I design and develop user-centric digital products with a strong
+							focus on performance and scalability.
 						</Text>
 					</VStack>
 				</VStack>
 			</HStack>
 			<VStack alignItems="flex-start" w="full">
-				<Text fontSize="display-lg" color="white">
-					I'm a Frontend Developer.|
+				<Text lineHeight="1" fontSize="display-lg" color="white">
+					Frontend Developer with a passion for building modern, scalable, and
+					user-focused applications.
 				</Text>
 				<HStack mt="10px" alignItems="center">
 					<Text color="white" fontSize="text-xl" fontWeight="300">
-						Currently, I'm a Frontend Developer at{" "}
+						Currently working as a Frontend Developer at
 					</Text>
 					<HStack>
 						<Image
@@ -100,10 +102,9 @@ export function Banner() {
 						</Text>
 					</HStack>
 				</HStack>
-				<Text fontSize="22px" mt="69px" fontWeight="300" color="white">
-					A self-taught UI/UX designer, functioning in the industry for 3+ years
-					now. I make meaningful and delightful digital products that create an
-					equilibrium between user needs and business goals.
+				<Text fontSize="22px" mt="40px" fontWeight="300" color="white">
+					I design and develop user-centric digital products with a strong focus
+					on performance and scalability.
 				</Text>
 			</VStack>
 		</VStack>

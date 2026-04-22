@@ -19,10 +19,7 @@ export function Footer() {
 				improving people's lives through accessible design. or have a project in
 				mind? Let's connect.
 			</Text>
-			<Text color="white" fontSize="text-md">
-				nurinail2003@gmail.com
-			</Text>
-			<HStack gap="30px" mt="30px">
+			<HStack gap="30px">
 				{contactMeUtil.map((item, index) => (
 					<NextLink
 						passHref

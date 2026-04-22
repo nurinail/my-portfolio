@@ -1,5 +1,6 @@
 import { VStack } from "@chakra-ui/react";
 import { Banner, LandingHero, WorkExperience } from "../../components/main";
+import { Education } from "../../components/main/Education/Education";
 
 export function Main() {
 	return (
@@ -7,6 +8,7 @@ export function Main() {
 			<Banner />
 			<WorkExperience />
 			<LandingHero />
+			<Education />
 		</VStack>
 	);
 }

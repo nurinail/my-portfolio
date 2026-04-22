@@ -7,10 +7,12 @@ export function LandingHero() {
 		<VStack gap="133px" mt="20" w="full">
 			<VStack w="full">
 				<Text fontStyle="italic" color="white" fontSize="display-xs">
-					I'm currently looking to join a cross-functional team
+					Frontend Developer focused on scalable and high-performance web
+					applications
 				</Text>
 				<Text fontWeight="300" color="white" fontSize="text-lg">
-					that values improving people's lives through accessible design{" "}
+					Creating modern, performant, and user-focused interfaces using React
+					and TypeScript
 				</Text>
 			</VStack>
 			<VStack gap="0" position="relative">

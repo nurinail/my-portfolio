@@ -10,11 +10,17 @@ import {
 
 export interface WorkItemProps {
 	title: string;
-	description: string;
+	workName: string;
 	imageSrc: string;
+	description?: string;
 }
 
-export function WorkItem({ title, description, imageSrc }: WorkItemProps) {
+export function WorkItem({
+	title,
+	workName,
+	description,
+	imageSrc,
+}: WorkItemProps) {
 	return (
 		<GridItem
 			background="linear-gradient(to right,  #38126D,#130428, #251043, #261045, #220d41ff)"
@@ -39,29 +45,31 @@ export function WorkItem({ title, description, imageSrc }: WorkItemProps) {
 				</Box>
 				<VStack alignItems="flex-start">
 					<Text lineHeight="1" color="white" fontSize="30px">
-						{title}
+						{workName}
 					</Text>
 					<Text color="white" fontSize="10px" fontWeight="400">
-						{description}
+						{title}
 					</Text>
-					<Button
-						cursor="pointer"
-						borderWidth="1px"
-						borderColor="#693B93"
-						bg="#2C1250"
-						fontSize="text-xs"
-						variant="ghost"
-						transition=".4s ease-in-out"
-						_hover={{
-							transform: "scale(1.05)",
-						}}
-						color="white"
-						py="10px"
-						px="20px"
-						borderRadius="10px"
-					>
-						Learn More
-					</Button>
+					{description && (
+						<Button
+							cursor="pointer"
+							borderWidth="1px"
+							borderColor="#693B93"
+							bg="#2C1250"
+							fontSize="text-xs"
+							variant="ghost"
+							transition=".4s ease-in-out"
+							_hover={{
+								transform: "scale(1.05)",
+							}}
+							color="white"
+							py="10px"
+							px="20px"
+							borderRadius="10px"
+						>
+							Learn More
+						</Button>
+					)}
 				</VStack>
 			</HStack>
 		</GridItem>

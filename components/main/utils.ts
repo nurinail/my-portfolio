@@ -23,27 +23,53 @@ export const contactMeUtil: { href: string; icon: IconType }[] = [
 export const workItemUtil = [
 	{
 		workName: "Republic of Azerbaijan Chamber of Accounts",
-		description:
-			"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+		title:
+			"Gained hands-on experience in public sector budgeting and financial analysis.",
 		image: "./images/hesablamaPalatasıLogo.png",
+		description: "-",
 	},
 	{
 		workName: "Yapı Kredi Bank",
-		description:
-			"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+		title:
+			"Handled customer operations, building strong communication and problem-solving skills.",
 		image: "./images/yapiKrediLogo.png",
+		description: "-",
 	},
 	{
 		workName: "MG Transport",
-		description:
-			"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+		title: "Worked on financial tracking and account reconciliation processes.",
 		image: "./images/mgTransportLogo.png",
+		description: "-",
 	},
 	{
 		workName: "Easy Finance",
-		description:
-			"Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+		title: "Assisted with tax reporting and client financial documentation.",
 		image: "./images/easyFinanceLogo.png",
+		description: "-",
+	},
+];
+export const educationItemUtil = [
+	{
+		workName: "Baku Engineering University",
+		title:
+			"Bachelor’s Degree in Accounting (2020–2024). Graduated with a GPA of 93",
+		image: "./images/beuLogo.png",
+	},
+	{
+		workName: "UNEC",
+		title: "Master’s Degree in E-Commerce (2024–2026)",
+		image: "./images/unecLogo.png",
+	},
+	{
+		workName: "SABAH GROUP",
+		title: "Master’s Program in E-Commerce (2024–2026)",
+		image: "./images/sabahLogo.png",
+	},
+	{
+		workName: "IDTECH Academy",
+		title:
+			"Frontend Development Program (Nov 2025 – Apr 2026). Completed with Honor Certificate",
+		image: "./images/idtechLogo.png",
 	},
 ];
 
