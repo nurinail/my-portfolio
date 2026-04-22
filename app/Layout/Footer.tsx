@@ -1,12 +1,13 @@
-import { HStack, Text, VStack } from "@chakra-ui/react";
+import { HStack, Link, Text, VStack } from "@chakra-ui/react";
+import NextLink from "next/link";
+import { contactMeUtil } from "../../components/main/utils";
 
 export function Footer() {
 	return (
 		<VStack
-			// py="10xl"
 			maxW="3xl"
+			pb="60px"
 			marginInline="auto"
-			border="1px solid white"
 			as="footer"
 			alignItems="flex-start"
 		>
@@ -21,7 +22,18 @@ export function Footer() {
 			<Text color="white" fontSize="text-md">
 				nurinail2003@gmail.com
 			</Text>
-			<HStack></HStack>
+			<HStack gap="30px" mt="30px">
+				{contactMeUtil.map((item) => (
+					<NextLink passHref key={item.href} href={item.href} target="_blank">
+						<Link
+							_hover={{ transform: "scale(1.2)" }}
+							transition="0.4s ease-in-out"
+						>
+							{item.icon({ color: "white" })}
+						</Link>
+					</NextLink>
+				))}
+			</HStack>
 		</VStack>
 	);
 }

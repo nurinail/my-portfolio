@@ -1,3 +1,25 @@
+import type { IconType } from "react-icons";
+import { LuFacebook, LuGithub, LuInstagram, LuLinkedin } from "react-icons/lu";
+
+export const contactMeUtil: { href: string; icon: IconType }[] = [
+	{
+		href: "https://www.instagram.com/nurinail/",
+		icon: LuInstagram,
+	},
+	{
+		href: "https://www.facebook.com/nurinail/",
+		icon: LuFacebook,
+	},
+	{
+		href: "http://www.linkedin.com/in/nailnuri",
+		icon: LuLinkedin,
+	},
+	{
+		href: "https://github.com/nurinail",
+		icon: LuGithub,
+	},
+];
+
 export const workItemUtil = [
 	{
 		workName: "Republic of Azerbaijan Chamber of Accounts",
