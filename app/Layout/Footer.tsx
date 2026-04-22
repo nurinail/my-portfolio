@@ -23,13 +23,18 @@ export function Footer() {
 				nurinail2003@gmail.com
 			</Text>
 			<HStack gap="30px" mt="30px">
-				{contactMeUtil.map((item) => (
-					<NextLink passHref key={item.href} href={item.href} target="_blank">
+				{contactMeUtil.map((item, index) => (
+					<NextLink
+						passHref
+						key={index as number}
+						href={item.href}
+						target="_blank"
+					>
 						<Link
 							_hover={{ transform: "scale(1.2)" }}
 							transition="0.4s ease-in-out"
 						>
-							{item.icon({ color: "white" })}
+							{item.icon({ color: "white", size: "24px" })}
 						</Link>
 					</NextLink>
 				))}
