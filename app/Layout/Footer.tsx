@@ -26,7 +26,7 @@ export function Footer() {
 						key={index as number}
 						href={item.href}
 						target="_blank"
-						_hover={{ transform: "scale(1.2)" }}
+						_hover={{ transform: "scale(1.2) rotate(10deg)" }}
 						transition="0.4s ease-in-out"
 					>
 						{item.icon({ color: "white", size: "24px" })}

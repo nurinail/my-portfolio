@@ -7,7 +7,7 @@ export function StackItem({ image }: { image: string }) {
 			h="44px"
 			borderRadius="full"
 			transition=".4s ease-in"
-			_hover={{ transform: "scale(1.2)" }}
+			_hover={{ transform: "scale(1.2) rotate(10deg)" }}
 			bg="#251C31"
 			display="flex"
 			alignItems="center"
